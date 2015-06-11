@@ -91,6 +91,11 @@ IF(ENABLE_EXAMPLES)
  add_executable(debug1 examples/debug1.cpp)
  TARGET_LINK_LIBRARIES(debug1 ${PROJECT_NAME})
 
+# PLAY THINGS:
+ add_executable(playthings01 examples/playthings01.cpp)
+ TARGET_LINK_LIBRARIES(playthings01 ${PROJECT_NAME})
+
+
 
 
 
